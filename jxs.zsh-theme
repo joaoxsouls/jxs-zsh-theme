@@ -1,1 +1,0 @@
-/Users/jxs/.oh-my-zsh/themes/jxs.zsh-theme
