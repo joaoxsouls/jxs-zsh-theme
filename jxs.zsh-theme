@@ -3,11 +3,11 @@ function virtualenv_info {
 }
 
 
-PROMPT='%{$fg_bold[green]%}♫ %{$fg_bold[magenta]%} (%n@%m:%c)%{$fg_bold[blue]%} ▸% %{$reset_color%} '
+PROMPT='%{$fg_bold[green]%}∮%{$fg_bold[magenta]%} %c '
 
 RPROMPT='$(git_prompt_info)$(virtualenv_info)%{$reset_color%}'
 
-ZSH_THEME_VIRTUALENV_PROMPT_PREFIX="%{$fg_bold[black]%}◾ %{$fg_bold[magenta]%}"
+ZSH_THEME_VIRTUALENV_PROMPT_PREFIX="%{$fg_bold[black]%} %{$fg_bold[magenta]%}"
 ZSH_THEME_VIRTUALENV_PROMPT_SUFFIX="%{$reset_color%}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[magenta]%}"
